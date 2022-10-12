@@ -1,0 +1,43 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    color: rgb(52, 21, 80);
+    text-align: center;
+}
+
+.input-buscar{
+    margin: 10px;
+    border-radius: 2px;
+}
+
+#get-movies {
+    border-radius: 5px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.movie{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5px;
+}
+
