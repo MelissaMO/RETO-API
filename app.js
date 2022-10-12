@@ -25,6 +25,7 @@ function readMovies(listpeliculas = movies) {
 		container.innerHTML += `<div class="movie">
 		<h4>${movie.title}</h4>
 		<p>${movie.description}</p>
+		<img src=${movie.images.posterArt.url} alt=""/>
 		</div>`;
 	});
 		
